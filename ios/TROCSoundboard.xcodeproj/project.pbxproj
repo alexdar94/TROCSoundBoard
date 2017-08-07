@@ -34,10 +34,40 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* TROCSoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TROCSoundboardTests.m */; };
+		42CEA47CB5ED7C29C22E73EF /* libPods-TROCSoundboard-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB93BA9ABA355D3826CC945F /* libPods-TROCSoundboard-tvOSTests.a */; };
+		4BDD7E0095944B2D99DDF97C /* libRNAdMobManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEE7E7944A54047A9D1A7A3 /* libRNAdMobManager.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9F49EF8850CA43ECAC901BF5 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DBB909C8A34351B26C8D51 /* libRNSound.a */; };
-		FAA2F0E01F33A01F00C2E01F /* 32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F0DF1F33A01F00C2E01F /* 32.mp3 */; };
+		B581010E0A83D12C7B1279AC /* libPods-TROCSoundboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D9EA3F7C3A1B2334D3BB9E /* libPods-TROCSoundboard.a */; };
+		E60B85B8575BEE74A9B775B0 /* libPods-TROCSoundboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8AFCA435D50E9EC097034E /* libPods-TROCSoundboardTests.a */; };
+		FA1992A01F38519000BE3B07 /* kris8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA19929F1F38519000BE3B07 /* kris8.mp3 */; };
+		FAA2F1A21F34E9DF00C2E01F /* ayue1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1881F34E9DE00C2E01F /* ayue1.mp3 */; };
+		FAA2F1A31F34E9DF00C2E01F /* ayue2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1891F34E9DE00C2E01F /* ayue2.mp3 */; };
+		FAA2F1A41F34E9DF00C2E01F /* ayue3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18A1F34E9DE00C2E01F /* ayue3.mp3 */; };
+		FAA2F1A51F34E9DF00C2E01F /* ayue4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18B1F34E9DF00C2E01F /* ayue4.mp3 */; };
+		FAA2F1A61F34E9DF00C2E01F /* ayue5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18C1F34E9DF00C2E01F /* ayue5.mp3 */; };
+		FAA2F1A71F34E9DF00C2E01F /* ayue6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18D1F34E9DF00C2E01F /* ayue6.mp3 */; };
+		FAA2F1A81F34E9DF00C2E01F /* hiphopman1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18E1F34E9DF00C2E01F /* hiphopman1.mp3 */; };
+		FAA2F1A91F34E9DF00C2E01F /* hiphopman2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F18F1F34E9DF00C2E01F /* hiphopman2.mp3 */; };
+		FAA2F1AA1F34E9DF00C2E01F /* hiphopman3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1901F34E9DF00C2E01F /* hiphopman3.mp3 */; };
+		FAA2F1AB1F34E9DF00C2E01F /* hiphopman4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1911F34E9DF00C2E01F /* hiphopman4.mp3 */; };
+		FAA2F1AC1F34E9DF00C2E01F /* hiphopman5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1921F34E9DF00C2E01F /* hiphopman5.mp3 */; };
+		FAA2F1AD1F34E9DF00C2E01F /* hiphopman6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1931F34E9DF00C2E01F /* hiphopman6.mp3 */; };
+		FAA2F1AE1F34E9DF00C2E01F /* kris1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1941F34E9DF00C2E01F /* kris1.mp3 */; };
+		FAA2F1AF1F34E9DF00C2E01F /* kris2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1951F34E9DF00C2E01F /* kris2.mp3 */; };
+		FAA2F1B01F34E9DF00C2E01F /* kris3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1961F34E9DF00C2E01F /* kris3.mp3 */; };
+		FAA2F1B11F34E9DF00C2E01F /* kris4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1971F34E9DF00C2E01F /* kris4.mp3 */; };
+		FAA2F1B21F34E9DF00C2E01F /* kris5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1981F34E9DF00C2E01F /* kris5.mp3 */; };
+		FAA2F1B31F34E9DF00C2E01F /* kris6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1991F34E9DF00C2E01F /* kris6.mp3 */; };
+		FAA2F1B41F34E9DF00C2E01F /* kris7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19A1F34E9DF00C2E01F /* kris7.mp3 */; };
+		FAA2F1B51F34E9DF00C2E01F /* mchotdog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19B1F34E9DF00C2E01F /* mchotdog1.mp3 */; };
+		FAA2F1B61F34E9DF00C2E01F /* mchotdog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19C1F34E9DF00C2E01F /* mchotdog2.mp3 */; };
+		FAA2F1B71F34E9DF00C2E01F /* mchotdog3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19D1F34E9DF00C2E01F /* mchotdog3.mp3 */; };
+		FAA2F1B81F34E9DF00C2E01F /* mchotdog4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19E1F34E9DF00C2E01F /* mchotdog4.mp3 */; };
+		FAA2F1B91F34E9DF00C2E01F /* mchotdog5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F19F1F34E9DF00C2E01F /* mchotdog5.mp3 */; };
+		FAA2F1BA1F34E9DF00C2E01F /* mchotdog6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1A01F34E9DF00C2E01F /* mchotdog6.mp3 */; };
+		FAA2F1BB1F34E9DF00C2E01F /* mchotdog7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F1A11F34E9DF00C2E01F /* mchotdog7.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +295,13 @@
 			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
 			remoteInfo = RNSound;
 		};
+		FAA2F1251F34BFEE00C2E01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A176491E1B5450983F1B3B1 /* RNAdMobManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A96DA7741C146D7200FC639B;
+			remoteInfo = RNAdMobManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -277,6 +314,8 @@
 		00E356EE1AD99517003FC87E /* TROCSoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TROCSoundboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TROCSoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TROCSoundboardTests.m; sourceTree = "<group>"; };
+		0A176491E1B5450983F1B3B1 /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAdMobManager.xcodeproj; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; };
+		0AECD0BCAA86BB28BA458D40 /* Pods-TROCSoundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboard/Pods-TROCSoundboard.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TROCSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TROCSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,12 +328,47 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TROCSoundboard-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TROCSoundboard-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TROCSoundboard-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TROCSoundboard-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEE7E7944A54047A9D1A7A3 /* libRNAdMobManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAdMobManager.a; sourceTree = "<group>"; };
 		58DBB909C8A34351B26C8D51 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5EE8CE0DD79E926FE476647E /* Pods-TROCSoundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboard/Pods-TROCSoundboard.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		85145E052AC5E8038D0B698E /* Pods-TROCSoundboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboardTests/Pods-TROCSoundboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A8AFCA435D50E9EC097034E /* libPods-TROCSoundboardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TROCSoundboardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB93BA9ABA355D3826CC945F /* libPods-TROCSoundboard-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TROCSoundboard-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FCA7A34E7F4587B10060A5 /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
-		FAA2F0DF1F33A01F00C2E01F /* 32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 32.mp3; sourceTree = "<group>"; };
+		CE7CEA6DD96E402D957E38E3 /* Pods-TROCSoundboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboardTests/Pods-TROCSoundboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF67E584ADBFCEC267813557 /* Pods-TROCSoundboard-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboard-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboard-tvOSTests/Pods-TROCSoundboard-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5976AB710C6045B6E13863 /* Pods-TROCSoundboard-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TROCSoundboard-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TROCSoundboard-tvOSTests/Pods-TROCSoundboard-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0D9EA3F7C3A1B2334D3BB9E /* libPods-TROCSoundboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TROCSoundboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA19929F1F38519000BE3B07 /* kris8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris8.mp3; sourceTree = "<group>"; };
+		FAA2F1881F34E9DE00C2E01F /* ayue1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue1.mp3; sourceTree = "<group>"; };
+		FAA2F1891F34E9DE00C2E01F /* ayue2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue2.mp3; sourceTree = "<group>"; };
+		FAA2F18A1F34E9DE00C2E01F /* ayue3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue3.mp3; sourceTree = "<group>"; };
+		FAA2F18B1F34E9DF00C2E01F /* ayue4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue4.mp3; sourceTree = "<group>"; };
+		FAA2F18C1F34E9DF00C2E01F /* ayue5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue5.mp3; sourceTree = "<group>"; };
+		FAA2F18D1F34E9DF00C2E01F /* ayue6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayue6.mp3; sourceTree = "<group>"; };
+		FAA2F18E1F34E9DF00C2E01F /* hiphopman1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman1.mp3; sourceTree = "<group>"; };
+		FAA2F18F1F34E9DF00C2E01F /* hiphopman2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman2.mp3; sourceTree = "<group>"; };
+		FAA2F1901F34E9DF00C2E01F /* hiphopman3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman3.mp3; sourceTree = "<group>"; };
+		FAA2F1911F34E9DF00C2E01F /* hiphopman4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman4.mp3; sourceTree = "<group>"; };
+		FAA2F1921F34E9DF00C2E01F /* hiphopman5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman5.mp3; sourceTree = "<group>"; };
+		FAA2F1931F34E9DF00C2E01F /* hiphopman6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiphopman6.mp3; sourceTree = "<group>"; };
+		FAA2F1941F34E9DF00C2E01F /* kris1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris1.mp3; sourceTree = "<group>"; };
+		FAA2F1951F34E9DF00C2E01F /* kris2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris2.mp3; sourceTree = "<group>"; };
+		FAA2F1961F34E9DF00C2E01F /* kris3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris3.mp3; sourceTree = "<group>"; };
+		FAA2F1971F34E9DF00C2E01F /* kris4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris4.mp3; sourceTree = "<group>"; };
+		FAA2F1981F34E9DF00C2E01F /* kris5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris5.mp3; sourceTree = "<group>"; };
+		FAA2F1991F34E9DF00C2E01F /* kris6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris6.mp3; sourceTree = "<group>"; };
+		FAA2F19A1F34E9DF00C2E01F /* kris7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kris7.mp3; sourceTree = "<group>"; };
+		FAA2F19B1F34E9DF00C2E01F /* mchotdog1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog1.mp3; sourceTree = "<group>"; };
+		FAA2F19C1F34E9DF00C2E01F /* mchotdog2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog2.mp3; sourceTree = "<group>"; };
+		FAA2F19D1F34E9DF00C2E01F /* mchotdog3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog3.mp3; sourceTree = "<group>"; };
+		FAA2F19E1F34E9DF00C2E01F /* mchotdog4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog4.mp3; sourceTree = "<group>"; };
+		FAA2F19F1F34E9DF00C2E01F /* mchotdog5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog5.mp3; sourceTree = "<group>"; };
+		FAA2F1A01F34E9DF00C2E01F /* mchotdog6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog6.mp3; sourceTree = "<group>"; };
+		FAA2F1A11F34E9DF00C2E01F /* mchotdog7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchotdog7.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				E60B85B8575BEE74A9B775B0 /* libPods-TROCSoundboardTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +397,8 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				9F49EF8850CA43ECAC901BF5 /* libRNSound.a in Frameworks */,
+				B581010E0A83D12C7B1279AC /* libPods-TROCSoundboard.a in Frameworks */,
+				4BDD7E0095944B2D99DDF97C /* libRNAdMobManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +421,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CEA47CB5ED7C29C22E73EF /* libPods-TROCSoundboard-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +571,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				C0FCA7A34E7F4587B10060A5 /* RNSound.xcodeproj */,
+				0A176491E1B5450983F1B3B1 /* RNAdMobManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -509,11 +588,39 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				FAA2F0DF1F33A01F00C2E01F /* 32.mp3 */,
+				FA19929F1F38519000BE3B07 /* kris8.mp3 */,
+				FAA2F1881F34E9DE00C2E01F /* ayue1.mp3 */,
+				FAA2F1891F34E9DE00C2E01F /* ayue2.mp3 */,
+				FAA2F18A1F34E9DE00C2E01F /* ayue3.mp3 */,
+				FAA2F18B1F34E9DF00C2E01F /* ayue4.mp3 */,
+				FAA2F18C1F34E9DF00C2E01F /* ayue5.mp3 */,
+				FAA2F18D1F34E9DF00C2E01F /* ayue6.mp3 */,
+				FAA2F18E1F34E9DF00C2E01F /* hiphopman1.mp3 */,
+				FAA2F18F1F34E9DF00C2E01F /* hiphopman2.mp3 */,
+				FAA2F1901F34E9DF00C2E01F /* hiphopman3.mp3 */,
+				FAA2F1911F34E9DF00C2E01F /* hiphopman4.mp3 */,
+				FAA2F1921F34E9DF00C2E01F /* hiphopman5.mp3 */,
+				FAA2F1931F34E9DF00C2E01F /* hiphopman6.mp3 */,
+				FAA2F1941F34E9DF00C2E01F /* kris1.mp3 */,
+				FAA2F1951F34E9DF00C2E01F /* kris2.mp3 */,
+				FAA2F1961F34E9DF00C2E01F /* kris3.mp3 */,
+				FAA2F1971F34E9DF00C2E01F /* kris4.mp3 */,
+				FAA2F1981F34E9DF00C2E01F /* kris5.mp3 */,
+				FAA2F1991F34E9DF00C2E01F /* kris6.mp3 */,
+				FAA2F19A1F34E9DF00C2E01F /* kris7.mp3 */,
+				FAA2F19B1F34E9DF00C2E01F /* mchotdog1.mp3 */,
+				FAA2F19C1F34E9DF00C2E01F /* mchotdog2.mp3 */,
+				FAA2F19D1F34E9DF00C2E01F /* mchotdog3.mp3 */,
+				FAA2F19E1F34E9DF00C2E01F /* mchotdog4.mp3 */,
+				FAA2F19F1F34E9DF00C2E01F /* mchotdog5.mp3 */,
+				FAA2F1A01F34E9DF00C2E01F /* mchotdog6.mp3 */,
+				FAA2F1A11F34E9DF00C2E01F /* mchotdog7.mp3 */,
 				13B07FAE1A68108700A75B9A /* TROCSoundboard */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TROCSoundboardTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				D3EB5FD6DF58609C26849225 /* Pods */,
+				DAE70DD21A3C1F283AD1C87D /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -530,10 +637,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D3EB5FD6DF58609C26849225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AECD0BCAA86BB28BA458D40 /* Pods-TROCSoundboard.debug.xcconfig */,
+				5EE8CE0DD79E926FE476647E /* Pods-TROCSoundboard.release.xcconfig */,
+				CF67E584ADBFCEC267813557 /* Pods-TROCSoundboard-tvOSTests.debug.xcconfig */,
+				DA5976AB710C6045B6E13863 /* Pods-TROCSoundboard-tvOSTests.release.xcconfig */,
+				CE7CEA6DD96E402D957E38E3 /* Pods-TROCSoundboardTests.debug.xcconfig */,
+				85145E052AC5E8038D0B698E /* Pods-TROCSoundboardTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAE70DD21A3C1F283AD1C87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D9EA3F7C3A1B2334D3BB9E /* libPods-TROCSoundboard.a */,
+				BB93BA9ABA355D3826CC945F /* libPods-TROCSoundboard-tvOSTests.a */,
+				8A8AFCA435D50E9EC097034E /* libPods-TROCSoundboardTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAA2F0B51F339F5400C2E01F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				FAA2F0DE1F339F5400C2E01F /* libRNSound.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA2F1051F34BFEE00C2E01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2F1261F34BFEE00C2E01F /* libRNAdMobManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -545,9 +683,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TROCSoundboardTests" */;
 			buildPhases = (
+				C88E56A38182E84A5FBD23A9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				9A1C9C6DF99D7F76E523D52D /* [CP] Embed Pods Frameworks */,
+				96A8AEFF300673566A04A250 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -563,10 +704,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TROCSoundboard" */;
 			buildPhases = (
+				EE0E4751EDBE72534EB1948D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BC4C86802D298FE5469D61DB /* [CP] Embed Pods Frameworks */,
+				F533ED617FCBA28D26C3843B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -599,9 +743,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TROCSoundboard-tvOSTests" */;
 			buildPhases = (
+				D78EB985749234C3CA0F34D8 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				7D86AAA3548155134A981C88 /* [CP] Embed Pods Frameworks */,
+				E3ABE13046B7E5359FFD152B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -692,6 +839,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = FAA2F1051F34BFEE00C2E01F /* Products */;
+					ProjectRef = 0A176491E1B5450983F1B3B1 /* RNAdMobManager.xcodeproj */;
 				},
 				{
 					ProductGroup = FAA2F0B51F339F5400C2E01F /* Products */;
@@ -919,6 +1070,13 @@
 			remoteRef = FAA2F0DD1F339F5400C2E01F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		FAA2F1261F34BFEE00C2E01F /* libRNAdMobManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNAdMobManager.a;
+			remoteRef = FAA2F1251F34BFEE00C2E01F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -933,9 +1091,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA2F1B41F34E9DF00C2E01F /* kris7.mp3 in Resources */,
+				FAA2F1B51F34E9DF00C2E01F /* mchotdog1.mp3 in Resources */,
+				FAA2F1AD1F34E9DF00C2E01F /* hiphopman6.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FAA2F1BA1F34E9DF00C2E01F /* mchotdog6.mp3 in Resources */,
+				FAA2F1AF1F34E9DF00C2E01F /* kris2.mp3 in Resources */,
+				FAA2F1A71F34E9DF00C2E01F /* ayue6.mp3 in Resources */,
+				FAA2F1A91F34E9DF00C2E01F /* hiphopman2.mp3 in Resources */,
+				FAA2F1A51F34E9DF00C2E01F /* ayue4.mp3 in Resources */,
+				FA1992A01F38519000BE3B07 /* kris8.mp3 in Resources */,
+				FAA2F1B31F34E9DF00C2E01F /* kris6.mp3 in Resources */,
+				FAA2F1B11F34E9DF00C2E01F /* kris4.mp3 in Resources */,
+				FAA2F1A61F34E9DF00C2E01F /* ayue5.mp3 in Resources */,
+				FAA2F1B91F34E9DF00C2E01F /* mchotdog5.mp3 in Resources */,
+				FAA2F1AE1F34E9DF00C2E01F /* kris1.mp3 in Resources */,
+				FAA2F1B81F34E9DF00C2E01F /* mchotdog4.mp3 in Resources */,
+				FAA2F1B21F34E9DF00C2E01F /* kris5.mp3 in Resources */,
+				FAA2F1A31F34E9DF00C2E01F /* ayue2.mp3 in Resources */,
+				FAA2F1A21F34E9DF00C2E01F /* ayue1.mp3 in Resources */,
+				FAA2F1B01F34E9DF00C2E01F /* kris3.mp3 in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				FAA2F0E01F33A01F00C2E01F /* 32.mp3 in Resources */,
+				FAA2F1AB1F34E9DF00C2E01F /* hiphopman4.mp3 in Resources */,
+				FAA2F1AA1F34E9DF00C2E01F /* hiphopman3.mp3 in Resources */,
+				FAA2F1B71F34E9DF00C2E01F /* mchotdog3.mp3 in Resources */,
+				FAA2F1A41F34E9DF00C2E01F /* ayue3.mp3 in Resources */,
+				FAA2F1B61F34E9DF00C2E01F /* mchotdog2.mp3 in Resources */,
+				FAA2F1A81F34E9DF00C2E01F /* hiphopman1.mp3 in Resources */,
+				FAA2F1AC1F34E9DF00C2E01F /* hiphopman5.mp3 in Resources */,
+				FAA2F1BB1F34E9DF00C2E01F /* mchotdog7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,6 +1168,150 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		7D86AAA3548155134A981C88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboard-tvOSTests/Pods-TROCSoundboard-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A8AEFF300673566A04A250 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboardTests/Pods-TROCSoundboardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1C9C6DF99D7F76E523D52D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboardTests/Pods-TROCSoundboardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4C86802D298FE5469D61DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboard/Pods-TROCSoundboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88E56A38182E84A5FBD23A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TROCSoundboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78EB985749234C3CA0F34D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TROCSoundboard-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3ABE13046B7E5359FFD152B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboard-tvOSTests/Pods-TROCSoundboard-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0E4751EDBE72534EB1948D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TROCSoundboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F533ED617FCBA28D26C3843B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TROCSoundboard/Pods-TROCSoundboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1052,6 +1380,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7CEA6DD96E402D957E38E3 /* Pods-TROCSoundboardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1061,12 +1390,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = TROCSoundboardTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1080,18 +1411,21 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85145E052AC5E8038D0B698E /* Pods-TROCSoundboardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = TROCSoundboardTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1105,6 +1439,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AECD0BCAA86BB28BA458D40 /* Pods-TROCSoundboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1112,6 +1447,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = TROCSoundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1127,12 +1463,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE8CE0DD79E926FE476647E /* Pods-TROCSoundboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = TROCSoundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1161,11 +1499,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "TROCSoundboard-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1195,11 +1535,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "TROCSoundboard-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1216,6 +1558,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF67E584ADBFCEC267813557 /* Pods-TROCSoundboard-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1230,6 +1573,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TROCSoundboard-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1241,6 +1585,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5976AB710C6045B6E13863 /* Pods-TROCSoundboard-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1254,6 +1599,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TROCSoundboard-tvOSTests";
