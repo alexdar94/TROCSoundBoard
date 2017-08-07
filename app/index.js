@@ -24,34 +24,54 @@ export default class TROCSoundboard extends Component {
 
   render() {
     var adUnitID = (Platform.OS === 'ios')?"ca-app-pub-8149901445736530/4150845033":"ca-app-pub-8149901445736530/1916575692";
-    return (
-      <View style={{flex: 1}}>
-        <ScrollableTabView
-        style={{marginTop: 20, }}
-        initialPage={1}
-        tabBarUnderlineStyle={{backgroundColor: '#000000'}}
-        tabBarBackgroundColor={'#FFDF00'}
-        renderTabBar={() => <ScrollableTabBar />}>
-          <AYue tabLabel='阿岳'>My</AYue>
-          <MCHotDog tabLabel='熱狗'>favorite</MCHotDog>
-          <Kris tabLabel='吴亦凡'>project</Kris>
-          <HipHopMan tabLabel='嘻哈侠'>favorite</HipHopMan>
-        </ScrollableTabView>
-        <AdMobBanner
-          bannerSize="fullBanner"
-          adUnitID={adUnitID}
-          testDeviceID="EMULATOR"
-          adViewDidReceiveAd={this.didReceiveAd}
-          didFailToReceiveAdWithError={this.bannerError} />
-      </View>
-    )
+    if(Platform.OS === 'ios'){
+        return (
+          <View style={styles.main}>
+            <ScrollableTabView
+            style={{marginTop:20}}
+            initialPage={1}
+            tabBarUnderlineStyle={{backgroundColor: '#000000'}}
+            tabBarBackgroundColor={'#FFDF00'}
+            renderTabBar={() => <ScrollableTabBar />}>
+              <AYue tabLabel='阿岳'>My</AYue>
+              <MCHotDog tabLabel='熱狗'>favorite</MCHotDog>
+              <Kris tabLabel='吴亦凡'>project</Kris>
+              <HipHopMan tabLabel='嘻哈侠'>favorite</HipHopMan>
+            </ScrollableTabView>
+            <AdMobBanner
+              bannerSize="fullBanner"
+              adUnitID={adUnitID}
+              testDeviceID="EMULATOR"
+              adViewDidReceiveAd={this.didReceiveAd}
+              didFailToReceiveAdWithError={this.bannerError} />
+          </View>
+        ) 
+      }else{
+        return (
+          <View style={styles.main}>
+            <ScrollableTabView
+            initialPage={1}
+            tabBarUnderlineStyle={{backgroundColor: '#000000'}}
+            tabBarBackgroundColor={'#FFDF00'}
+            renderTabBar={() => <ScrollableTabBar />}>
+              <AYue tabLabel='阿岳'>My</AYue>
+              <MCHotDog tabLabel='熱狗'>favorite</MCHotDog>
+              <Kris tabLabel='吴亦凡'>project</Kris>
+              <HipHopMan tabLabel='嘻哈侠'>favorite</HipHopMan>
+            </ScrollableTabView>
+            <AdMobBanner
+              bannerSize="fullBanner"
+              adUnitID={adUnitID}
+              testDeviceID="EMULATOR"
+              adViewDidReceiveAd={this.didReceiveAd}
+              didFailToReceiveAdWithError={this.bannerError} />
+          </View>
+        )
+      }
+    
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
+  main: {flex: 1}
 });

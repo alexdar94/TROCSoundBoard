@@ -38,5 +38,5 @@ export default class MCHotDog extends Component {
 const styles = StyleSheet.create({
   image: { flex:1, width: null, height: null },
   container: {flexDirection: 'column'},
-  button: {flex:1, width: null, height: null, borderColor: '#FFDF00', backgroundColor: '#FFDF00', margin:30, borderRadius: 5}
+  button: {flex:1, width: null, height: null, borderColor: '#FFDF00', backgroundColor: '#FFDF00', margin:20, borderRadius: 5}
 });
